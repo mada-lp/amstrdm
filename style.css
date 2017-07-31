@@ -1,4 +1,6 @@
-
+body {
+  font-family: 'Raleway', sans-serif;
+}
 
 .navbar-home {
   background: transparent;
@@ -104,31 +106,80 @@
   color: white;
 }
 .banner {
-  background-size: cover !important;
-  background-image: url('images/home-header.jpg');
-  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  position: absolute;
-
+  position: relative;
+  padding: 100px 50px;
+  background-size: cover !important;
 }
 
-.banner-content {
-  width: 43%;
-  margin-right: 10%;
-  position: relative;
+.first {
+  height: 100vh;
+  align-items: center;
 }
 
 .banner-content h2 {
   background-color: white;
   color: 161616;
   font-family: 'Raleway', sans-serif;
+  font-weight: 900;
   display: flex;
+  /*padding: 7px;*/
 }
 
 .banner-content p {
   color: white;
   font-family: 'Raleway', sans-serif;
   line-height: 25px;
+}
+
+.container-content {
+  align-content: center;
+  background-size: cover !important;
+  height: 100vh;
+  padding: 50px 10px;
+}
+
+.container-content h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  padding: 13px 10px;
+
+}
+
+.titulo-criacoes {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  background-color: black;
+  text-align: center;
+}
+
+.img-photo {
+  flex-shrink: 2;
+  flex-grow: 2;
+  padding: 10px;
+  height: 100%;
+  background-size: cover !important;
+  margin: 10px 0;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.img-photo h4, p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.img-photo h4 {
+  background-color: #CD212B;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.titulo-festa {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 30%;
 }
