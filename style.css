@@ -137,6 +137,7 @@ body {
   background-size: cover !important;
   height: 100vh;
   padding: 50px 10px;
+  margin: 20px 0;
 }
 
 .container-content h2 {
@@ -159,11 +160,14 @@ body {
   flex-grow: 2;
   padding: 10px;
   height: 100%;
+  max-height: 400px;
   background-size: cover !important;
   margin: 10px 0;
   align-content: center;
   text-align: center;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .img-photo h4, p {
@@ -180,6 +184,45 @@ body {
 
 .titulo-festa {
   position: absolute;
-  margin-top: 20%;
   margin-left: 30%;
+  align-content: center;
+
+}
+
+.video-small {
+  background-color: grey;
+  height: calc(100% - 34.2em);
+  margin: 10px 0;
+  align-items: center;
+  display: flex;
+}
+
+.video-medium {
+  background-color: grey;
+  height: calc(100% - 29.3em);
+  margin: 10px 0;
+  align-items: center;
+  display: flex;
+}
+
+.btn-seemore {
+  color: white;
+  padding: 10px 40px;
+  font-weight: bold;
+  background: #CD212B;
+  transition: background 0.3s ease;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.btn-seemore:hover {
+  opacity: 1;
+  background: #a51821;
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper-btn {
+  margin: 100px 20px;
 }
