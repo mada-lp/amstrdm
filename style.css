@@ -112,13 +112,20 @@ body {
   align-items: center;
 }
 
-.banner-content h2 {
+.titles {
   background-color: white;
   color: 161616;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   display: flex;
-  /*padding: 7px;*/
+  padding: 7px;
+}
+
+.video-title {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  display: flex;
 }
 
 .banner-content p {
@@ -130,7 +137,6 @@ body {
 .container-content {
   align-content: center;
   background-size: cover !important;
-  height: 100vh;
   padding: 50px 10px;
   margin: 20px 0;
 }
@@ -202,6 +208,9 @@ body {
   width: 100%;
   flex-wrap: wrap;
   padding-left: 20px;
+  background: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .video-medium {
@@ -282,5 +291,23 @@ body {
   font-family: 'Raleway', sans-serif;
   align-items: center;
   color: white;
+  display: flex;
+  position: relative;
+  padding: 100px 50px;
+  height: 75vh;
 }
 
+.banner-institucional {
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.video-wrapper {
+  background: black;
+  margin: 50px 10px;
+}
