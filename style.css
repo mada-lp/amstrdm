@@ -311,3 +311,7 @@ body {
   background: black;
   margin: 50px 10px;
 }
+
+.padding-text {
+  padding: 45px;
+}
