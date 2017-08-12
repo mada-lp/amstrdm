@@ -192,7 +192,6 @@ body {
 
 .video-small {
   background-color: black;
-  height: calc(100% - 34.2em);
   margin: 10px 0;
   align-items: center;
   display: flex;
@@ -215,7 +214,6 @@ body {
 
 .video-medium {
   background-color: black;
-  height: calc(100% - 29.3em);
   margin: 10px 0;
   align-items: center;
   display: flex;
