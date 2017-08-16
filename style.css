@@ -337,3 +337,25 @@ body {
 .barra-video {
   padding: 70px 0 150px 0;
 }
+
+.title-party-banner{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  color: white;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.title-party-banner h1{
+  background-color: #CD212B;;
+  font-weight: 700;
+}
+
+.title-party-banner h3{
+  background-color: black;
+  font-weight: 400;
+}
