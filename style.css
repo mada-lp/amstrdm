@@ -106,6 +106,7 @@ body {
   position: relative;
   padding: 100px 50px;
   background-size: cover !important;
+  justify-content: space-around;
 }
 
 .first {
@@ -113,13 +114,31 @@ body {
   align-items: center;
 }
 
-.titles {
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  display: flex;
+  padding: 7px;
+}
+
+.title-white {
   background-color: white;
   color: 161616;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   display: flex;
   padding: 7px;
+}
+
+.title-black {
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  display: flex;
+  padding: 7px;
+  justify-content: flex-end;
+
 }
 
 .video-title {
@@ -170,6 +189,7 @@ body {
   vertical-align: middle;
   display: flex;
   align-items: center;
+  background-position: center;
 }
 
 .img-photo h4, h6 {
@@ -182,6 +202,18 @@ body {
   background-color: #CD212B;
   padding: 5px;
   font-weight: 700;
+}
+
+.img-photo h5 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.img-photo p {
+  color: white;
+  font-weight: lighter;
 }
 
 .titulo-festa {
@@ -316,12 +348,17 @@ body {
   padding: 45px;
 }
 
+.padding-page {
+  padding: 100px 50px;
+  background-size: cover !important;
+}
+
 .video-name {
   background: black;
   padding: 3px;
   color: white;
   margin-right: 15px;
-  text-align: center
+  text-align: center;
 }
 
 .info-video-detail p{
@@ -336,4 +373,51 @@ body {
 
 .barra-video {
   padding: 70px 0 150px 0;
+}
+
+.title-party-banner{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  color: white;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.title-party-banner h1{
+  background-color: #CD212B;;
+  font-weight: 900;
+}
+
+.title-party-banner h3{
+  background-color: black;
+  font-weight: 500;
+}
+
+.sub-title {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  padding: 7px;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+.info-festa {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-right h5 {
+  font-weight: 900;
 }
