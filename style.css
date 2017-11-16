@@ -130,6 +130,17 @@ body {
   padding: 7px;
 }
 
+.title-black {
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  display: flex;
+  padding: 7px;
+  justify-content: flex-end;
+
+}
+
 .video-title {
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -191,6 +202,18 @@ body {
   background-color: #CD212B;
   padding: 5px;
   font-weight: 700;
+}
+
+.img-photo h5 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.img-photo p {
+  color: white;
+  font-weight: lighter;
 }
 
 .titulo-festa {
@@ -325,6 +348,11 @@ body {
   padding: 45px;
 }
 
+.padding-page {
+  padding: 100px 50px;
+  background-size: cover !important;
+}
+
 .video-name {
   background: black;
   padding: 3px;
@@ -384,4 +412,12 @@ body {
 .info-festa {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-right h5 {
+  font-weight: 900;
 }
