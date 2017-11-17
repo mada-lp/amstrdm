@@ -75,23 +75,26 @@ body {
 .navbar-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
+  border-color: black;
+  width: 250px;
+  background-color: black !important;
 
 }
 .navbar-dropdown-menu li > a {
   transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: black !important;
+  text-align: center !important;
+  color: white !important;
   font-size: 15px !important;
-  line-height: 22px !important;
+  line-height: 50px !important;
   padding: 10px 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+  background-color: black;
 
 }
 .navbar-dropdown-menu li > a:hover {
-  background: white !important;
-  color: grey !important;
+  background: #CD212B !important;
+  color: white !important;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
